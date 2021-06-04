@@ -14,15 +14,16 @@ function convertNotatoMencao(nota,faltas){
             let mencao = "II";
             return mencao;
         }
-        else if ( 3 <= nota || nota < 5) {
+        else if ( nota >= 3 && nota < 5) {
             let mencao = "MI";
             return mencao;
+            
         }
-        else if ( 5 <= nota || nota < 7) {
+        else if ( nota >= 5 && nota < 7) {
             let mencao = "MM";
             return mencao;
         }
-        else if ( 7 <= nota || nota < 9) {
+        else if ( nota >= 7 && nota < 9) {
             let mencao = "MS";
             return mencao;
         }
